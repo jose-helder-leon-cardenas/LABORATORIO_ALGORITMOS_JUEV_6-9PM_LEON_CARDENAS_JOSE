@@ -1,0 +1,8 @@
+Algoritmo Km_A_Sg
+	
+	VI <- 50
+	VC = (VI*1000/(1*3600)) 
+	
+	ESCRIBIR "EL RESULTADO DE LA VELOCIDAD CONVERTIDA ES: " , VC
+	
+FinAlgoritmo
