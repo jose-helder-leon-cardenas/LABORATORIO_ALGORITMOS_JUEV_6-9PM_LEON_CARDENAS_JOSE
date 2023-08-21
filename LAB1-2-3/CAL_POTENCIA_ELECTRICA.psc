@@ -1,0 +1,14 @@
+Algoritmo CAL_POTENCIA_ELECTRICA
+	
+	ESCRIBIR "INGRESE LA INTENSIDAD DE CORRIENTE  "
+	LEER I
+	
+	R <- 4
+	
+	V = I*R
+	
+	P = V*I
+	
+	Escribir "LA POTENCIA CALCULADA ES " , P
+	
+FinAlgoritmo
