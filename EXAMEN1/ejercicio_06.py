@@ -6,9 +6,12 @@ numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9]
 salida
 ([2, 4, 6, 8], [1, 3, 5, 7, 9])"""
 
-numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9]
 
-def numeros_pares(numbers):
-    numeros_pares = []
-    for numero in numbers:
-        if numero % 2==0
+def separar_numeros(numbers):
+    pares = [num for num in numbers if num % 2 == 0]
+    impares = [num for num in numbers if num % 2 == 1]
+    return (pares, impares)
+
+numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+resultado = separar_numeros(numbers)
+print(resultado)
